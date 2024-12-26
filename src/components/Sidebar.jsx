@@ -20,7 +20,7 @@ function Sidebar() {
 
   return (
     <div
-      className={`pl-2 pt-6 z-[888]  flex flex-col border fixed md:relative
+      className={`pl-2 bg-white pt-6 z-[888]  flex flex-col border fixed md:relative
        border-gray-300 md:items-start md:justify-between overflow-hidden transition-all ease-linear duration-300 ${
         isMenuVisible ? "h-[34rem]" : "h-[5.5rem]"
       } md:h-[100vh] w-full md:w-[16%]`}
